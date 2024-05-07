@@ -4,7 +4,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoModel
 
 # download internlm2 to the base_path directory using git tool
-base_path = '/InternLM_chat_1.8B_lora'
+base_path = './InternLM_chat_1.8B_lora'
 os.system(f'git clone https://code.openxlab.org.cn/Arthur_Morgan/InternLM_chat_1.8B_lora.git {base_path}')
 os.system(f'cd {base_path} && git lfs pull')
 
