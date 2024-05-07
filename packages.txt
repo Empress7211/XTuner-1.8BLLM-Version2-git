@@ -1,2 +1,10 @@
-git
-git-lfs
+# install git
+apt-get update
+apt-get install git
+
+# install git lfs
+apt-get update
+apt-get install git-lfs
+
+# use git install lfs
+git lfs install
